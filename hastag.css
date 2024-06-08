@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    --primary: #1F2235;
+    --secondary: #24263b;
+    --secondary-text: #dfdfdf;
+    --blue-light: #8abdff;
+    --blue: #6d5dfc;
+    --blue-dark: #5b0eeb;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --white: #FFFFFF;
+    --greyDark: #9baacf;
+    --max-width:2100px;
+    --full:100%;
+    --top-padding: 10px;
+}
+
+nav .container .nav ul li a:hover,
+nav .container .nav ul li a#menu-home {
+    color: var(--primary);
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+nav {
+    padding: var(--top-padding) 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    margin-left: 100px;
+
+    
+}
+nav .container {
+    width: var(--full);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--greyDark);
+    border-radius: 0.4rem;
+    padding: 0.7rem 0;
+    background-image: url(back.jpg);
+    position: relative;
+    top: -170px;
+    
+}
+nav .container .nav ul li {
+    margin: 0 1rem;
+    list-style: none;
+    
+}
+nav .container .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 0.4rem;
+    padding: .3rem .7rem;
+}
+nav .container .nav ul li a:hover,
+nav .container .nav ul li a:active {
+  color: #E6E6FA;
+}
+nav .container .nav ul li a:hover,
+nav .container .nav ul li a#menu-home {
+    background-image: url(back.jpg);
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+nav {
+    padding: var(--top-padding) 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    top: -10px;
+    margin-left: 100px;
+
+    
+}
+body{
+    padding: 1.5rem 1rem;
+    display: flex;
+    background-color: white;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat; background-size: cover; 
+    color: whitesmoke;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    height: 50%;
+    border: none;
+    border-radius: 12px;
+}
+th{
+    height: 50px;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-color: var(--greyLight-1);
+
+}
+td{
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+
+.rec1{
+    width: 70%;
+    height: 300px;
+    background: white;
+    background-color:#E6E6FA ;
+    background-image: url(b3.jpg);
+    background-repeat: no-repeat; background-size: cover;opacity: 10.0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white),
+     0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    position: relative;
+    top: -20px;
+    margin-left: -30px;
+    margin-top: 150px;
+}
+.det{
+    border-radius: 12px;
+    border-color: gray;
+    background-color:gray ;
+    opacity: 0.6;
+    border: 1px solid gray;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+}
+    
+.dash{
+    border-radius: 12px;
+    border-color: rgb(21, 95, 232);
+    background-color:rgb(21, 95, 232) ;
+    opacity: 0.6;
+    border: 1px solid rgb(21, 95, 232);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+    
+.ed{
+    border-radius: 12px;
+    border-color: rgb(30, 242, 30);
+    background-color:rgb(30, 242, 30) ;
+    opacity: 0.6;
+    border: 1px solid rgb(30, 242, 30);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}
+.fet{
+    border-radius: 12px;
+    border-color: yellow;
+    background-color:yellow ;
+    opacity: 0.6;
+    border: 1px solid yellow;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+}
+.del{
+    border-radius: 12px;
+    border-color: rgb(242, 30, 30);
+    background-color:rgb(242, 30, 30) ;
+    opacity: 0.6;
+    border: 1px solid rgb(242, 30, 30);
+    height: 30px;
+    color: white;
+    font-weight: bold;
+}

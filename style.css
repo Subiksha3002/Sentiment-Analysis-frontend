@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    --primary: #1F2235;
+    --secondary: #24263b;
+    --secondary-text: #dfdfdf;
+    --blue-light: #8abdff;
+    --blue: #6d5dfc;
+    --blue-dark: #5b0eeb;
+    --greyLight-1: #E4EBF5;
+    --greyLight-2: #c8d0e7;
+    --greyLight-3: #bec8e4;
+    --white: #FFFFFF;
+    --greyDark: #9baacf;
+    --max-width:2100px;
+    --full:100%;
+    --top-padding: 10px;
+
+}
+nav .logo .nav ul li a:hover,
+nav .logo .nav ul li a#menu-home {
+    color: var(--primary);
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+html {
+    scroll-behavior: smooth;
+}
+.on{
+    max-width: var(--max-width);
+    height: 580px;
+    margin: auto;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat; background-size: cover; 
+    width: 100%;
+    color: whitesmoke;
+   
+}
+
+.logo{
+
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0 10%;
+    font-family: "Irish Grover", system-ui;
+    background: var(--greyLight-3);
+    color: var(--primary);
+    position: relative;
+    margin-top: -500px;
+}
+nav .container .nav ul li a:hover,
+nav .container .nav ul li a#menu-home {
+    color: var(--primary);
+    box-shadow: inset 0.2rem 0.2rem 0.5rem var(--greyLight-2), inset -0.2rem -0.2rem 0.5rem var(--white);
+}
+nav {
+    padding: var(--top-padding) 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    position: relative;
+    top: -250px;
+    margin-left: 100px;
+
+    
+}
+nav .container {
+    width: var(--full);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    border-radius: 0.4rem;
+    padding: 0.7rem 0;
+    position: relative;
+    margin-left: -70px;
+}
+nav .container .nav ul li {
+    margin: 0 1rem;
+    list-style: none;
+}
+nav .container .nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: transform 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 0.4rem;
+    padding: .3rem .7rem;
+}
+nav .container .nav ul li a:hover,
+nav .container .nav ul li a:active {
+    color: var(--primary);
+}
+.inrec p{
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 10px;
+    margin-left: -220px;
+}
+.hea h2{
+    position: relative;
+    top: -65px;
+    margin-right: -150px;
+    color: black;
+    margin-left: 220px;
+    text-align: center;
+    animation: text 3s 1;
+}
+
+.rec1{
+    width: 70%;
+    height: 300px;
+    background: 	#E6E6FA;
+    background-image: url(1.gif);
+    background-repeat: no-repeat; background-size: cover;background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    position: relative;
+    margin-right: 180px;
+    margin-left: -300px;
+    margin-top: 10px;
+}
+.inrec{
+    width: 70%;
+    min-width: 550px;
+    height: 200px;
+    background-image: url(b3.jpg);
+    background-repeat: no-repeat; background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
+    position: relative;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+i{
+    animation: text1 5s 2;
+    
+    size: 80px;
+    position: relative;
+    top: 75px;
+    margin-left: -280px;
+    white-space: 2;
+
+}
+.ins{
+position: relative;
+margin-left: -600px;
+color: orangered;
+}
+.twit{
+    position: relative;
+    margin-left: -200px;
+    color: black;
+    }
+    .fac{
+        position: relative;
+        margin-left: -200px;
+        color: blue;
+        }
+
+        @keyframes text {
+            0%{
+                color:black;
+                margin-top: -20px;
+            }
+            30%{
+                
+                margin-top: -30px;
+            }  
+        }
+        @keyframes text1 {
+            0%{
+                color:black;
+                margin-right: -20px;
+            }
+            30%{
+                
+                margin-right: -30px;
+            }
+            50%{
+                
+                margin-right: -30px;
+            }
+        
+            
+        }
+        
+        
+    
+    
